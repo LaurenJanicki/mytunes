@@ -6,6 +6,8 @@
     <script src="bower_components/jquery/jquery.min.js"></script>
     <script src="bower_components/underscore/underscore.js"></script>
     <script src="bower_components/backbone/backbone.js"></script>
+    <script src="bower_components/backbone.localStorage/backbone.localStorage.js"></script>
+    
 
     <script src="data/data.js"></script>
 
@@ -24,7 +26,8 @@
     <script>
       $(function(){
         // set up model objects
-        var library = new Songs(songData);
+        // 
+        var library = new Songs();
         var app = new AppModel({library: library});
 
         // build a view for the top level of the whole app

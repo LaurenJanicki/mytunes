@@ -1,5 +1,14 @@
 body {
   background-color: #E9FCFF;
+  background-image: url('img/space.jpg');
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 36px;
 }
 
 table {
@@ -8,25 +17,36 @@ table {
   margin-right: auto;
   margin-bottom: 25px;
   text-align: left;
+  border-spacing: 3px 3px;
 }
+
+/* Table Styles */
 
 td {
   border-radius: 7px;
+  border: 1px solid black;
 }
 
 tr:hover {
   cursor: pointer;
-  background-color: green;
+  background-color: rgba(30, 65, 201, .5);
 }
-
-h1 {
-  text-align: center;
-}
-
 tr {
-  height: 27px;
+  height: 37px;
   font-size: 18px;
-  background-color: #2ef;
+  background-color: rgba(104, 220, 255, .5);
+}
+
+th {
+  text-align: center;
+  color: white;
+}
+
+caption {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .container{
@@ -38,12 +58,12 @@ tr {
 }
 
 .artist {
-  padding-left: 20px;
+  padding-left: 15px;
   width: 80px;
 }
 
 .title {
-  padding-left: 20px;
+  padding-left: 15px;
   width: 400px;
 }
 
@@ -54,4 +74,8 @@ tr {
 
 audio {
   margin: 30px;
+}
+
+.header {
+  padding-left: 0;
 }

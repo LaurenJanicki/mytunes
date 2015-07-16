@@ -1,0 +1,57 @@
+body {
+  background-color: #E9FCFF;
+}
+
+table {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+td {
+  border-radius: 7px;
+}
+
+tr:hover {
+  cursor: pointer;
+  background-color: green;
+}
+
+h1 {
+  text-align: center;
+}
+
+tr {
+  height: 27px;
+  font-size: 18px;
+  background-color: #2ef;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+.artist {
+  padding-left: 20px;
+  width: 80px;
+}
+
+.title {
+  padding-left: 20px;
+  width: 400px;
+}
+
+.playCount {
+  width: 80px;
+  text-align: center;
+}
+
+audio {
+  margin: 30px;
+}

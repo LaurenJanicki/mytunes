@@ -29,12 +29,12 @@ td {
 
 tr:hover {
   cursor: pointer;
-  background-color: rgba(30, 65, 201, .5);
+  background-color: rgba(30, 65, 201, .6);
 }
 tr {
   height: 37px;
   font-size: 18px;
-  background-color: rgba(104, 220, 255, .5);
+  background-color: rgba(104, 220, 255, .6);
 }
 
 th {
@@ -79,3 +79,21 @@ audio {
 .header {
   padding-left: 0;
 }
+
+/* Animated Space Background  */
+
+video#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(img/space.jpg) no-repeat;
+  background-size: cover;
+}
+
